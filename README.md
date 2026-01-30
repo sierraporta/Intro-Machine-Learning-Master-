@@ -1,1 +1,9 @@
-# Intro-Machine-Learning-Master-
+# Intro Machine Learning - Master Program
+
+**Machine Learning (ML)** es una rama de la inteligencia artificial que se enfoca en construir modelos capaces de **aprender patrones a partir de datos** para hacer **predicciones** o **decisiones**, sin necesidad de programar reglas explícitas para cada caso. En lugar de decirle al computador “si pasa esto, entonces haz aquello”, en ML le damos ejemplos (datos) y un objetivo, y el algoritmo ajusta un modelo que generaliza ese aprendizaje a casos nuevos.
+
+En un problema típico de ML trabajamos con una **variable objetivo** (por ejemplo, “precio”, “riesgo”, “aprobado/no aprobado”) y un conjunto de **variables explicativas** o *features* (por ejemplo, edad, ingresos, historial, señales, imágenes, texto). El proceso completo no es solo “entrenar un modelo”: incluye **entender el contexto**, **limpiar y transformar datos**, **definir métricas**, **validar correctamente** (evitando fugas de información o *data leakage*), y finalmente **interpretar resultados** para tomar decisiones de forma responsable.
+
+ML se usa cuando necesitamos automatizar o mejorar tareas como: predecir valores continuos (**regresión**), clasificar categorías (**clasificación**), detectar comportamientos inusuales (**anomalías**), segmentar poblaciones (**clustering**), o recomendar contenidos (**recomendación**). En muchos contextos, el objetivo no es solo maximizar una métrica, sino lograr un modelo **estable**, **explicable**, y alineado con el costo real de errores (falsos positivos y falsos negativos).
+
+A lo largo del curso construiremos un marco práctico y reproducible: partiremos de **baselines**, pasaremos por modelos clásicos (regresión lineal y logística, árboles y ensamblados), y cerraremos con técnicas de evaluación, ajuste, interpretación y buenas prácticas que permiten llevar un modelo del “notebook” a un resultado útil en el mundo real.
